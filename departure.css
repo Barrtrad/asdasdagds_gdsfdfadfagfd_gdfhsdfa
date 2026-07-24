@@ -1,0 +1,194 @@
+.bodyA {
+
+    margin: 0;
+    background: #000;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+
+.board {
+
+    width: 90%;
+    max-width: 1000px;
+
+    margin: 40px auto;
+
+    background: #cf1e14;
+
+    padding: 30px;
+    border-radius: 10px;
+
+    color: #ffffff;
+
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+h1 {
+
+    font-size: 40px;
+
+    margin: 0;
+
+}
+
+
+#clock {
+
+    font-size: 35px;
+
+}
+
+
+
+table {
+
+    width: max(100%);
+
+    border-collapse: collapse;
+
+}
+
+
+
+th {
+    background: #cf1e14;
+
+    color: #ffffff;
+
+    padding: 15px;
+
+    text-align: left;
+
+}
+
+
+
+td {
+
+    padding: 18px;
+
+    font-size: 22px;
+    color: #000000;
+    border-bottom: 1px solid #000000;
+
+}
+
+
+
+tr:hover {
+    background: #cf1e14;
+    color: #ffffff;
+
+}
+
+
+
+.delayed {
+
+    color: #ffffff;
+
+}
+
+
+
+.ontime {
+
+    color: #ffffff;
+
+}
+
+.station-search-container {
+
+    position: relative;
+
+    width: 250px;
+
+    max-width: 100%;
+
+    margin: 0 auto;
+
+}
+
+
+#stationSearch {
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 10px 15px;
+
+    font-size: 16px;
+
+    border-radius: 6px;
+
+    border: 1px solid #ccc;
+
+}
+
+
+
+#stationResults {
+
+    position: absolute;
+
+    top: calc(100% + 5px);
+
+    left: 0;
+
+    width: 100%;
+
+    background: white;
+
+    color: black;
+
+    z-index: 999;
+
+    border-radius: 6px;
+
+    overflow: hidden;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+
+
+.station-option {
+
+    padding: 12px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+}
+
+
+
+.station-option:hover {
+
+    background: #eee;
+
+}
+
+#clock {
+
+    width: 100px;
+
+    text-align: right;
+
+    white-space: nowrap;
+
+}
+
