@@ -67,7 +67,7 @@ header {
    color: #fff;
 }
 #slides .slide_1 {
-   background-image: url('https://cdn.discordapp.com/attachments/1318607369168621638/1530216465699967016/Untitled_-_24_juli_2026_kl._15.51.55_1.png?ex=6a64c4a3&is=6a637323&hm=f1a9d2f0c9e10cba6579ea9248b8495df06c334babb6feb9467d1140429678b0&=&format=webp&quality=lossless&width=838&height=838');
+   background-image: url('https://cdn.discordapp.com/attachments/1318607369168621638/1530216465699967016/Untitled_-_24_juli_2026_kl._15.51.55_1.png?ex=6af326a3&is=6af1d523&hm=a2c91e55ecd5172531b9df1109af1d61ffa57848bf703993566ed8318920c230&');
 }
    #slides .slide_2 {
    background: #003459;
@@ -113,7 +113,7 @@ header {
 #slide4:checked ~ #controls label:nth-child(1) {
    right: 0;
    display: block;
-   background-image: url('https://media.discordapp.net/attachments/1318607369168621638/1529938416685551706/Untitled_-_23_juli_2026_kl._21.45.53-2.png?ex=6a63c1af&is=6a62702f&hm=f3eaf915d46eb484ae4dc08ccf31f4fb26e32478a72c845cce0e6758e827403d&=&format=webp&quality=lossless&width=838&height=838');
+   background-image: url('https://cdn.discordapp.com/attachments/1318607369168621638/1529938416685551706/Untitled_-_23_juli_2026_kl._21.45.53-2.png?ex=6af3752f&is=6af223af&hm=a03c99fd611586d5bdd155343101598cda5148b3f589b466614bbec2b29f19a8&');
 }
 #slide1:checked ~ #controls label:nth-child(4),
 #slide2:checked ~ #controls label:nth-child(1),
@@ -121,7 +121,7 @@ header {
 #slide4:checked ~ #controls label:nth-child(3) {
    left: 0;
    display: block;
-   background-image: url('https://media.discordapp.net/attachments/1318607369168621638/1529938416341487716/Untitled_-_23_juli_2026_kl._21.45.53-1.png?ex=6a63c1af&is=6a62702f&hm=2b51c539023a85add6e74f49423c3f6963afd76e64787bf1976a4251ca470643&=&format=webp&quality=lossless&width=838&height=838');
+   background-image: url('https://cdn.discordapp.com/attachments/1318607369168621638/1529938416341487716/Untitled_-_23_juli_2026_kl._21.45.53-1.png?ex=6af3752f&is=6af223af&hm=a476fc6d04c82f756c52ecc51ee8fd5fe6eafa1d5ba572dbc1bdaade38c0ca3c&');
 }
 #controls label::before {
    content: none;
@@ -268,8 +268,21 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-    html {
-        font-size: 90%;
+    header {
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+
+    .hero-text {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+
+    #slider {
+        flex: 1 1 0;
+        width: auto;
+        min-width: 0;
+        margin: 10px 0;
     }
 }
 
